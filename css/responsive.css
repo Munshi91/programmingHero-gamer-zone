@@ -13,29 +13,62 @@
     box-shadow: none !important;
   }
   .logo-section {
-    padding: 10px 0;
+    padding: 0px 0;
   }
+
   .hed-section .nav-item-section ul {
     flex-direction: column;
   }
   .nav-item-section ul li {
-    padding: 10px 0;
+    padding: 8px 0;
   }
 
   /*******************************
         Nav Section End 
 *******************************/
+  .banner-container {
+    flex-direction: column;
+    width: 0;
+  }
+  .banner-img-section img {
+    order: 1;
+    margin-top: 400px;
+    margin-left: 10px;
+    width: 400px;
+    padding: 30px 25px;
 
+    /* height: 200px; */
+  }
+  .banner-info-section {
+    order: 2;
+    margin: 0 20px;
+  }
 }
 
 /*******************************
         Medium Device  
 *******************************/
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  .hed-section{
+  .hed-section {
     padding: 0 40px;
   }
-    /*******************************
+
+  /*******************************
         Nav Section End 
 *******************************/
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-img-section img {
+    order: 1;
+    width: 100%;
+    margin-top: 400px;
+    margin-left: 45px;
+  }
+  .banner-info-section {
+    order: 2;
+    margin-left: 40px;
+    padding: 20px;
+    margin-right: 0;
+  }
 }
