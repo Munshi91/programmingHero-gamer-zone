@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --font-family: "Work Sans", sans-serif;
+  --btn-primary-color: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  --title-font-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+}
