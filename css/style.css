@@ -15,6 +15,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+/*******************************
+        Nav Section Start
+*******************************/
 .hed-section {
   height: 100px;
   background: #fff;
@@ -84,3 +87,6 @@
 button .fa-youtube::before {
   color: #f61c0d;
 }
+/*******************************
+        Nav Section End 
+*******************************/
