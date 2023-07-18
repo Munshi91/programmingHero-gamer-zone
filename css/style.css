@@ -29,7 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 30px 0;
+  padding: 25px 0;
 }
 .logo-section img {
   width: 3.6rem;
@@ -63,8 +63,8 @@
   font-weight: 500;
 }
 .nav-item-section ul .nav-btn {
-  width: 180px;
-  height: 2rem;
+  width: 200px;
+  height: 2.5rem;
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   border: none;
@@ -73,10 +73,14 @@
   color: #3c354f;
   text-align: center;
   font-family: var(--font-family);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 .nav-btn i {
   margin-left: 8px;
   align-items: center;
+  font-size: 16px;
+}
+button .fa-youtube::before {
+  color: #f61c0d;
 }
