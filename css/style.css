@@ -2,6 +2,81 @@
 
 :root {
   --font-family: "Work Sans", sans-serif;
-  --btn-primary-color: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  --btn-primary-color: #ff42a5;
   --title-font-color: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --font-color: #0b0223;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.hed-section {
+  height: 100px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.logo-section img {
+  width: 3.6rem;
+  height: 2rem;
+  margin-right: 1rem;
+}
+.logo-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--font-color);
+  font-family: var(--font-family);
+}
+.logo-section h2 span {
+  color: var(--btn-primary-color);
+}
+.hed-section .nav-item-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item-section ul li {
+  list-style: none;
+  text-align: center;
+  margin-right: 30px;
+}
+.nav-item-section li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-item-section ul .nav-btn {
+  width: 180px;
+  height: 2rem;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  border: none;
+}
+.nav-btn {
+  color: #3c354f;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+}
+.nav-btn i {
+  margin-left: 8px;
+  align-items: center;
 }

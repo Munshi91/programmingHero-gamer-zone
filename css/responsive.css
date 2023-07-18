@@ -2,10 +2,32 @@
         Small Device  
 *******************************/
 @media screen and (max-width: 576px) {
+  .nav_container {
+    flex-direction: column;
+    padding: 10px;
+    width: 0;
+  }
+  .hed-section {
+    background: #fff;
+    padding: 0;
+    box-shadow: none !important;
+  }
+  .logo-section {
+    padding: 10px 0;
+  }
+  .hed-section .nav-item-section ul {
+    flex-direction: column;
+  }
+  .nav-item-section ul li {
+    padding: 10px 0;
+  }
 }
 
 /*******************************
         Medium Device  
 *******************************/
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  .hed-section{
+    padding: 0 40px;
+  }
 }
