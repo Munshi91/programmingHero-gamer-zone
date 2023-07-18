@@ -22,6 +22,8 @@
   height: 100px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
 }
 .nav_container {
   display: flex;
@@ -90,15 +92,3 @@ button .fa-youtube::before {
 /*******************************
         Nav Section End 
 *******************************/
-.banner-section {
-  background: #fff;
-  height: 100vh;
-  display: flex;
-  justify-content: space-around;
-}
-header .banner-info-section {
-  background-image: url("../images/Group\ 18.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
