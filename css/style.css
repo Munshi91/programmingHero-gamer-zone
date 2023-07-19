@@ -27,6 +27,7 @@
   text-transform: uppercase;
   border: none;
 }
+
 /*******************************
         Nav Section Start
 *******************************/
@@ -360,4 +361,126 @@ button .fa-youtube::before {
   position: relative;
   margin-right: 450px;
   margin-top: -300px;
+}
+/*******************************
+    play Game Section End 
+*******************************/
+.review-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.review-section {
+  height: 400px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 100px;
+}
+.single-review-card {
+  background-color: #fff;
+  padding: 10px;
+  flex-basis: 200px;
+  border-radius: 50px;
+  border: none;
+}
+.single-review-card div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.single-review-card img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.single-review-card:hover {
+  border: 2px solid #f948b2;
+  /* transition: 0.5s; */
+  transition-delay: 0.5s;
+}
+/*******************************
+      Review Section End 
+*******************************/
+footer {
+  background: #0b0223;
+  height: 500px;
+}
+.footer-logo-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-logo-sec img {
+  width: 80px;
+  height: 40px;
+}
+.footer-logo-sec h2 {
+  color: #fff;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-logo-sec h2 span {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-menu-item ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  list-style: none;
+}
+.footer-menu-item li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 600;
+}
+.second-footer-menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 30px 0;
+}
+.second-footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-socials-icon {
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+.fa-brands {
+  margin: 0 10px;
+}
+.footer-container p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer-container {
+  padding-top: 150px;
 }
