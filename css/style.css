@@ -26,6 +26,7 @@
   font-weight: 600;
   text-transform: uppercase;
   border: none;
+  cursor: pointer;
 }
 
 /*******************************
@@ -318,6 +319,7 @@ button .fa-youtube::before {
 }
 .card-online:hover .overlay {
   opacity: 1;
+  border: 5px solid #f948b2;
 }
 /*******************************
     Online Game Section End 
@@ -362,8 +364,70 @@ button .fa-youtube::before {
   margin-right: 450px;
   margin-top: -300px;
 }
+.img-1-sec {
+  margin-top: -300px;
+  margin-right: -120px;
+}
 /*******************************
     play Game Section End 
+*******************************/
+
+.career-container {
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  width: 100%;
+  /* height: 600px; */
+}
+.career-row {
+  min-width: 1440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.career-info {
+  align-content: center;
+  padding-left: 200px;
+}
+.career-info h3 {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.career-info p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.left-col ul li {
+  list-style: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.left-col ul li a {
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+}
+.career-info button {
+  border: 2px solid #fff;
+  background: #fff;
+  padding: 21px 40px;
+  border-radius: 48px;
+  color: var(--btn-primary-color);
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* border: none; */
+  cursor: pointer;
+}
+/*******************************
+    Career Section End 
 *******************************/
 .review-container {
   background: linear-gradient(
@@ -402,7 +466,6 @@ button .fa-youtube::before {
 }
 .single-review-card:hover {
   border: 2px solid #f948b2;
-  /* transition: 0.5s; */
   transition-delay: 0.5s;
 }
 /*******************************
