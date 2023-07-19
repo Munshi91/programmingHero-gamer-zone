@@ -41,6 +41,10 @@
     order: 2;
     margin: 0 10px;
   }
+
+  /*******************************
+        Banner Section End 
+*******************************/
   .feature-container {
     margin-bottom: 200px;
   }
@@ -67,6 +71,9 @@
   .info-section button {
     margin-right: 100px;
   }
+  /*******************************
+        Feature Section End 
+*******************************/
 }
 
 /*******************************
