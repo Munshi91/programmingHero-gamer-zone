@@ -223,3 +223,98 @@ button .fa-youtube::before {
 /*******************************
         Feature Section End 
 *******************************/
+.online-game-section {
+  background: #fff;
+  width: 100%;
+}
+.online-game-title {
+  text-align: center;
+  padding-top: 40px;
+}
+.online-game-title h2 {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-game-title h2 span {
+  background: var(--title-font-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+.online-game-title p {
+  color: #534c64;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.online-game-card-section {
+  display: flex;
+  padding: 40px 0;
+  gap: 30px;
+}
+.card-online {
+  position: relative;
+}
+.card-online p {
+  color: #534c64;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.card-online img {
+  width: 342px;
+  height: 400px;
+  z-index: 0;
+}
+.card-online .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 84.5%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+.card-online i {
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card-online h5 {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.card-online:hover .overlay {
+  opacity: 1;
+}
