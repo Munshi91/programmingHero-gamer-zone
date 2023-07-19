@@ -5,12 +5,13 @@
   .nav_container {
     flex-direction: column;
     padding: 10px;
-    width: 0;
+    width: 100%;
   }
   .hed-section {
     background: #fff;
     padding: 0;
     box-shadow: none !important;
+    padding-bottom: 200px;
   }
   .logo-section {
     padding: 0px 0;
@@ -28,20 +29,43 @@
 *******************************/
   .banner-container {
     flex-direction: column;
-    width: 0;
+    width: 100%;
   }
   .banner-img-section img {
     order: 1;
     margin-top: 100px;
-    margin-left: 10px;
     width: 400px;
-    padding: 30px 25px;
-
-    /* height: 200px; */
+    margin-left: 10px;
   }
   .banner-info-section {
     order: 2;
-    margin: 0 20px;
+    margin: 0 10px;
+  }
+  .feature-container {
+    margin-bottom: 200px;
+  }
+  .feature-div {
+    flex-direction: column;
+    width: 100%;
+  }
+  .feature-div img {
+    width: 100%;
+  }
+  .info-section {
+    width: 100%;
+  }
+  .info-section h2,
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .info-section p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 10px;
+  }
+  .info-section button {
+    margin-right: 100px;
   }
 }
 
