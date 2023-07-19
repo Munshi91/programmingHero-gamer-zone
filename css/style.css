@@ -321,3 +321,43 @@ button .fa-youtube::before {
 /*******************************
     Online Game Section End 
 *******************************/
+.play-section {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: right;
+  padding: 60px 100px;
+}
+.play-info-div {
+  width: 400px;
+}
+.play-info-div h2 span {
+  background: var(--title-font-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+}
+.play-info-div h2 {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-weight: 700;
+  text-align: right;
+}
+.play-info-div p {
+  color: #534c64;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: right;
+  margin-top: 20px;
+}
+.img-2-sec img {
+  position: relative;
+  margin-right: 450px;
+  margin-top: -300px;
+}
