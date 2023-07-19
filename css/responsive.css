@@ -74,6 +74,70 @@
   /*******************************
         Feature Section End 
 *******************************/
+  .online-game-card-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card-online img {
+    width: 100%;
+    /* margin-left: 40px; */
+    margin: 0 40px;
+  }
+  .online-game-title p {
+    font-size: 16px;
+    padding: 0 20px;
+  }
+  .card-online p {
+    font-size: 16px;
+    padding: 0 30px;
+  }
+  /*******************************
+    Online Game Section End 
+*******************************/
+
+  .play-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .play-info-div h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+  .play-info-div p {
+    font-size: 16px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  .img-2-sec img {
+    display: none;
+  }
+  .play-img-div .res-1 {
+    width: 130%;
+    margin-right: 80px;
+    margin-left: -40px;
+    margin-top: 40px;
+    margin-bottom: -40px;
+  }
+  .play-img-div .res-2 {
+    display: none;
+  }
+  .img-1-sec img {
+    display: none;
+  }
+  /*******************************
+    play Game Section End 
+*******************************/
+  .career-container {
+    display: none;
+  }
+  .review-section {
+    flex-direction: column;
+  }
+  .single-review-card {
+    flex-wrap: wrap;
+  }
 }
 
 /*******************************

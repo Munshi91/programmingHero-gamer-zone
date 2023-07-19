@@ -375,7 +375,6 @@ button .fa-youtube::before {
 .career-container {
   background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   width: 100%;
-  /* height: 600px; */
 }
 .career-row {
   min-width: 1440px;
